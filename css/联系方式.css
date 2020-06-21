@@ -1,0 +1,76 @@
+/* 整体样式 */
+body{
+    margin: 0;  
+}
+div.inner {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 页眉样式 */
+div#header {
+    height: 140px;  
+}
+div#text{
+    height: 120px;
+    background-image: url(../img/插图1.jpg);
+    background-repeat: no-repeat;   
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h1#top{
+    margin-left: 180px;
+    margin-top: 0px;
+    padding-top: 50px;
+    color:#2b2626;
+    font-family: 'Microsoft YaHei';
+}
+/* 导航样式 */
+div#navigation{
+    height: 60px;
+    background-color: #000000; 
+}
+ul#nav{
+    height: 48px;
+    margin: auto;
+    padding-left: 10px;
+}
+ul#nav .nav1{
+    float: left;
+    padding: 18px 18px;
+    list-style: none;
+}
+ul#nav li.nav1:hover{
+    background-color:#85754d;
+}
+ul#nav li a{
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff;
+    text-decoration: none;
+}
+/* 内容样式 */
+div#content{
+    height: 800px;
+    padding-top: 80px;
+    background-color: #f1efe3;
+}
+div#微信{
+    margin-left: 88px;
+    float: left;
+}
+div#QQ{
+    margin-left: 88px;
+    float: left;
+}
+/* 页脚样式 */
+div#footer {
+    height: 60px;  
+    background-color: #172c1f;
+}
+p#版权内容{
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    padding-top: 16px;
+}
